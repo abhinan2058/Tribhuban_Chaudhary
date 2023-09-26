@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribhuban's Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #2f2f2f;
+        }
+
+        .container {
+            text-align: center;
+            color: #fff;
+        }
+
+        .logo {
+            font-size: 4rem;
+            font-weight: bold;
+            animation: logoScale 1s infinite alternate;
+        }
+
+        @keyframes logoScale {
+            0% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1.1);
+            }
+        }
+
+        .message {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+            animation: messageFade 2s infinite alternate;
+        }
+
+        @keyframes messageFade {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0.6;
+            }
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">Coming Soon</div>
+        <div class="message">Stay tuned, my portfolio is on its way!</div>
+        
+    </div>
+</body>
+</html>
